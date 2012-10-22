@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 800px;
+}
+
+#container {
+	background-color: #888;
+}
+#container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+#sidebar {
+	float: left;
+	width: 25%;
+	min-width: 200px;
+}
+
+#content {
+	float:left;
+	width: 75%;
+	min-width: 600px;
+	background-color: #ddd;
+}
+
